@@ -1,0 +1,10 @@
+{
+	"autoload": {
+        "psr-4": {
+            "MyApp\\": "core/classes"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.3"
+    }
+}

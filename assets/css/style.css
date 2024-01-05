@@ -1,0 +1,115 @@
+*{
+	    font-family: 'Roboto', sans-serif;
+	    box-sizing: border-box;
+}
+
+.wrapper{
+	position: relative;
+	z-index: 2;
+	background: #90A4AE;
+}
+.wrapper::after{
+	content: "";
+	width: 100%;
+	height: 80%;
+	top: 20%;
+	position: absolute;
+	background: #d5dbd8;
+	z-index: -2;
+}
+
+.inner{
+}
+
+.right-img{
+
+		
+		
+
+}
+.right-heading h2{
+	font-size: 40px;
+	font-weight: 200;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.right-heading p{
+	font-weight: 300;
+}
+.right-heading{
+	text-align: center;
+	color: #777;
+	user-select: none;
+}
+.pop-up{
+	width: 600px;
+	height: 130px;
+	border-radius: 20px;
+	background: rgba(223, 232, 221, 0.19);
+	box-shadow: 0px 1px 6px #aeaeae;
+}     
+.glass{
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	-o-filter: blur(20px);
+	-ms-filter: blur(20px);
+	filter: blur(20px);
+	transition: all 400ms ease-in;
+}
+.time{
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+}
+.time::before{
+	border-radius: 20px;
+	box-shadow: 0 0 1rem 0 rgba(45, 45, 45, 0.2);
+	content: '';
+	height: 35px;
+	position: absolute;
+	width: 66px;
+	left: 0px;
+	top: 0px;
+}
+
+.vid-2{
+	width: 200px;
+	height: auto;
+	bottom: 0px;
+}
+
+.btn-call-end{
+	position: absolute;
+	align-items: end;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+#callBtn{
+   background: #90A4AE;
+}
+.login-wrap{
+	position: absolute;
+	z-index: 11;
+	width: 100%;
+}
+.login-wrap > divdiv:last-child{
+	margin: 0px 20px 0px 20px;
+}
+.login-box{
+	background: rgba(179, 179, 179, 0.31);
+	border-radius: 5px;
+	box-shadow: 0px -2px 8px #979797;
+}
+
+.login-box > div > div{
+	margin:10px 20px;
+}
+.menu-logout{
+
+}
+.logout{
+	display: none;
+}
+.menu-logout:hover > div.logout{
+	display: flex;
+}
