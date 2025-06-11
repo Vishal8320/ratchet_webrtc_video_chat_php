@@ -1,0 +1,1 @@
+I conducted an experiment using PHP Ratchet library (WebSockets) and WebRTC to enable peer-to-peer video calls and easy sharing of files and media. The outcome was a successful integration, allowing seamless communication through WebRTC.
